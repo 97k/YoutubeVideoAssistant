@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: ./
+    command: streamlit run src/main.py --server.port 8501
+    ports:
+      - 8009:8501
+    env_file:
+      - .env
+    image: yt_qa:v0.0.1
