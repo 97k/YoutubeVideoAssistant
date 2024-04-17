@@ -1,0 +1,6 @@
+youtube-transcript-api==0.6.2
+langchain
+huggingface_hub
+streamlit
+transformers
+chromadb
